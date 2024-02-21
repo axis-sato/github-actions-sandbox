@@ -1,10 +1,12 @@
 name: Static code analysis and Unit test
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
+    types: [reopened]
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
 
 jobs:
   ci:
