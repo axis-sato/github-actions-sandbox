@@ -28,7 +28,11 @@ template: |
 
   $CHANGES
 autolabeler:
-  - label: "不具合"
-    title:
-      - '/fix/i'
+  - label: "feature"
+    branch:
+      - "/^feat/i"
+      - "/^feature/i"
+  - label: "bug"
+    branch:
+      - "/^fix/"
   
