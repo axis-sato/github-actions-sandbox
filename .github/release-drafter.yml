@@ -27,12 +27,13 @@ template: |
   ## 変更点
 
   $CHANGES
+
 autolabeler:
-  - label: "feature"
+  - label: "新規実装"
     branch:
       - "/^feat/i"
       - "/^feature/i"
-  - label: "bug"
+  - label: "不具合"
     branch:
       - "/^fix/"
   
